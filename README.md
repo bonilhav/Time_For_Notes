@@ -5,6 +5,8 @@
   ## Description
   This project is designed to allow a person to keeps notes for things they need to do or remember. Individuals can review their notes listed on the side of the application.
 
+  ![Screenshot](./assets/notes-screenshot.png)(https://morning-coast-00385.herokuapp.com/)
+
   ## Table of Contents
 
   * [Installation](#installation)

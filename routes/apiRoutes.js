@@ -18,11 +18,11 @@ router.post('/notes', (req, res) => {
 
     res.json(DB);
 });
-router.get('/api/notes/:id', (req, res) => {
+router.get('/notes/:id', (req, res) => {
     let notes = JSON.parse(data);
     res.json(notes[req.params.id]);
 });
-router.delete('/api/notes/:id', (req, res) => {
+router.delete('/notes/:id', (req, res) => {
     notes.splice(req.params.id);
     res.json(DB);
 
